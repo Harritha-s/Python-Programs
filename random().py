@@ -1,3 +1,5 @@
+#Find the random of 3 elements in a array and sort them according to first array
+
 import random
 
 result = []
