@@ -13,3 +13,13 @@ for i in range(len(array)-1):
 consecutive.sort()   
 print(consecutive)
 print(count)
+
+""" Output:
+    18 1 4 3 2
+    [1, 2, 3, 4]
+    4
+    
+    22 15 19 20 16 18 17
+    [15, 16, 17, 18, 19, 20]
+    6
+"""    
