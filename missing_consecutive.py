@@ -20,4 +20,12 @@ for i in range(len(consecutive)):
     if(consecutive[i]+1 not in consecutive):
         print(consecutive[i]+1)
         break
+        
+    """ Output:
+        1 3 5 4 6 9         i/p
+        [1, 3, 4, 5, 6]     consecutive numbers
+        2                   o/p
 
+        1 2 3 4 5 9
+        2                   o/p
+    """
