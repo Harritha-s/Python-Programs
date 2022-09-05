@@ -14,3 +14,23 @@ for i in range(n):
 print(count)
 a = max(count)
 print(count.index(a)+1)
+
+
+""" output:
+    4
+    1 0 0 0
+    1 1 0 1
+    1 0 1 0
+    0 1 0 0
+    [1, 3, 2, 1]        #count
+    2
+    
+    5
+    1 0 1 1 1
+    0 1 0 1 0
+    0 1 1 1 1
+    0 1 0 0 1
+    1 1 1 1 1
+    [4, 2, 4, 2, 5]     #count
+    5
+"""    
